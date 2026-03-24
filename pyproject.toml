@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "axiscraft"
+version = "0.1.0"
+description = "Precise, reproducible matplotlib figure layouts for scientific publications"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["matplotlib>=3.7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
